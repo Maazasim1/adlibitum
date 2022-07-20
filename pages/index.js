@@ -7,6 +7,11 @@ import Card from '../components/card'
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>
+          Adlibitum
+        </title>
+      </Head>
       <div>
 
       <Navbar />
