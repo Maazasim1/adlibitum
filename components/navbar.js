@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <div>
+    <div className='sticky top-0'>
 
     <div className='flex flex-row p-1 w-full shadow-lg justify-end pr-20 bg-white sticky top-0' id='navbar'>
         <div>
