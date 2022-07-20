@@ -4,10 +4,10 @@ import Link from 'next/link'
 export default function Footer() {
   return (
     <>
-    <footer class="p-4 bg-white shadow md:px-6 md:py-">
-    <div class="sm:flex sm:items-center sm:justify-between">
+    <footer className="p-4 bg-white shadow md:px-6 md:py-">
+    <div className="sm:flex sm:items-center sm:justify-between">
       
-        <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0">
+        <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0">
             <li className='p-5'>
             <Link href="#home">
             <a>
@@ -57,8 +57,8 @@ export default function Footer() {
             </li>
         </ul>
     </div>
-    <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
-    <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">Developed by Hyperflex Core
+    <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+    <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">Developed by Hyperflex Core
     </span>
 </footer>
     </>
