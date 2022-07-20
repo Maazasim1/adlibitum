@@ -11,7 +11,8 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-image: url("../public/images/background.svg");
   background-repeat: repeat;
-
+  background-attachment: fixed;
+  
 }
 
 #navbar a {

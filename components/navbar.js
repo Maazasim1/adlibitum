@@ -3,7 +3,12 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <div className='flex flex-row p-1 w-full shadow-lg justify-center bg-white sticky top-0' id='navbar'>
+    <div>
+
+    <div className='flex flex-row p-1 w-full shadow-lg justify-end pr-20 bg-white sticky top-0' id='navbar'>
+        <div>
+            <img src='images/Adlibitium.svg' className='absolute m-4 h-10 w-10 left-20'/>
+        </div>
         <Link href="#">
             <a>
                 Home
@@ -36,6 +41,7 @@ export default function Navbar() {
         </Link>
         
 
+    </div>
     </div>
   )
 }
