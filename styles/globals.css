@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: url("../public/images/background.svg");
+  background-repeat: repeat;
+
+}
+
+#navbar a {
+  color: inherit;
+  text-decoration: none;
+  @apply p-5;
+  @apply font-mono;
+  @apply font-bold;
+  @apply text-gray-500 !important;
+  @apply hover:text-black !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
