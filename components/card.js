@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Card(props) {
   return (
-    <div className="max-w-sm bg-gray-100 rounded-lg border border-gray-200 shadow-md hover:bg-white p-10 m-10">
+    <div className="max-w-sm bg-gray-50 rounded-lg border border-gray-100 shadow-md hover:bg-white p-10 m-10 ">
     <a href="#" className='flex justify-center'>
         <img className="rounded-t-lg h-40 w-40" src={props.src} alt="" />
     </a>

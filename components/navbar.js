@@ -3,38 +3,38 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <div className='sticky top-0'>
+    <div className='sticky top-0 bg-white'>
 
-    <div className='flex flex-row p-1 w-full shadow-lg justify-end pr-20 bg-white sticky top-0' id='navbar'>
+    <div className='flex flex-row sm:w-full shadow-lg justify-end pl-[10vw] pr-[10vw] bg-white sticky top-0' id='navbar'>
         <div>
-            <img src='images/Adlibitium.svg' className='absolute m-4 h-10 w-10 left-20'/>
+            <img src='images/Adlibitium.svg' className='absolute m-4 h-12 w-12 pb-3 sm:left-[20vw]'/>
         </div>
-        <Link href="#">
+        <Link href="#home">
             <a>
                 Home
             </a>
         </Link>
-        <Link href="#">
+        <Link href="#business">
             <a>
                 Our Business
             </a>
         </Link>
-        <Link href="#">
+        <Link href="#clients">
             <a>
                 Our Clients
             </a>
         </Link>
-        <Link href="#">
+        <Link href="#manage">
             <a>
                 Management
             </a>
         </Link>
-        <Link href="#">
+        <Link href="#contact">
             <a>
                 Contact Us
             </a>
         </Link>
-        <Link href="#">
+        <Link href="#about">
             <a>
                 About Us
             </a>
