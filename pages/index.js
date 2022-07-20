@@ -18,7 +18,7 @@ export default function Home() {
       <div>
 
         <Navbar />
-        <div id="home" className='bg-[#000b76] sm:h-96 w-full h-[750px]'>
+        <div id="home" className='bg-[#000b76] sm:h-[600px] w-full h-[750px]'>
           <article className='prose prose-invert p-10 pt-20'>
             <h1>
               WHAT ARE WE?
