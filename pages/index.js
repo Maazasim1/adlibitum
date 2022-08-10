@@ -96,13 +96,7 @@ export default function Home() {
           BOSCH PAKISTAN' />
         </div>
       </div>
-      <div id="manage" className='flex flex-row justify-center p-20'>
-        <article className='prose text-center'>
-          <h1>MANAGEMENT</h1>
-          <p>Meet our management team. They have vast professional experience with proven skills in their respective fields.</p>
-
-        </article>
-      </div>
+     
       <div id='contact'>
         <div className='flex flex-row justify-center '>
           <article className='prose text-center'>
