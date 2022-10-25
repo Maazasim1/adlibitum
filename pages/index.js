@@ -59,7 +59,7 @@ export default function Home() {
       <div className="sm:p-20 flex sm:flex-row justify-center flex-col">
         <Card src='images/delivery.svg' text='Door to Door deliveries are made for bank credit card holders and corporate customers.' title='Door To Door Deliveries' />
         <Card src='images/partner.svg' text='We have hundreds of prominent affiliate partners in all major cities of Pakistan.' title='Affiliate Partners' />
-        <Card src='images/reliable.svg' text='TVONICS Pakistan is a reliable and dependable source of supplier for all electronics appliances under one roof.' title='Reliable & Dependable' />
+        <Card src='images/reliable.svg' text=' Pakistan is a reliable and dependable source of supplier for all electronics appliances under one roof.' title='Reliable & Dependable' />
       </div>
       <div className='flex flex-col sm:flex-row justify-center bg-sky-300 p-20'>
         <article className='prose text-left'>
