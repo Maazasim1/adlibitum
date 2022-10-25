@@ -13,7 +13,7 @@ export default function WideCard() {
                         <div className='flex flex-col sm:flex-row'>
                             <img className='object-fit h-20 pb-4' src="images/location.svg" />
                             <p className='pl-5 pr-5 break-words'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Shop 7, liberty view, block 14, gulistan e Johar, karachi
                             </p>
                         </div>
                     </article>
@@ -26,7 +26,7 @@ export default function WideCard() {
                         <div className='flex flex-col sm:flex-row'>
                             <img className='object-fit h-20' src="images/email.svg" />
                             <p className='pl-5 pr-5 break-words'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Syedowaissalman@adlibitumsolutions.com
                             </p>
                         </div>
                     </article>
@@ -39,7 +39,7 @@ export default function WideCard() {
                         <div className='flex flex-col sm:flex-row'>
                             <img className='object-fit h-20' src="images/phone.svg" />
                             <p className='pl-5 pr-5 break-words'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            03111234488
                             </p>
                         </div>
                     </article>
