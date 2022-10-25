@@ -7,7 +7,7 @@ export default function Navbar() {
 
     <div className='flex flex-row sm:w-full shadow-lg justify-end pl-[10vw] pr-[10vw] bg-white sticky top-0' id='navbar'>
         <div>
-            <img src='images/adlibitiumLogo.png' className='absolute m-4 h-12 w-12 pb-3 sm:left-[20vw]'/>
+            <img src='images/adlibitumLogo.png' className='absolute m-4 h-12 w-12 pb-3 sm:left-[20vw]'/>
         </div>
         <Link href="#home">
             <a>
