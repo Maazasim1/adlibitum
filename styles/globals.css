@@ -9,9 +9,10 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-image: url("../public/images/back.svg");
   
-  background-attachment: fixed;
+  background-color: black;
+  
+  
   
 }
 
@@ -21,8 +22,8 @@ body {
   @apply p-5;
   @apply font-mono;
   @apply font-bold;
-  @apply text-gray-500 !important;
-  @apply hover:text-black !important;
+  @apply text-gray-100 !important;
+  @apply hover:text-gray-900 !important;
 }
 
 * {

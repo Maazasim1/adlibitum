@@ -3,9 +3,9 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <div className='sticky top-0 bg-white'>
+    <div className='sticky top-0 bg-black border-[#d4a537] border-0 border-b-2 z-40'>
 
-    <div className='flex flex-row sm:w-full shadow-lg justify-end pl-[10vw] pr-[10vw] bg-white sticky top-0' id='navbar'>
+    <div className='flex flex-row sm:w-full shadow-lg justify-end pl-[10vw] pr-[10vw] bg-black sticky top-0' id='navbar'>
         <div>
             <img src='images/adlibitumLogo.png' className='absolute m-4 h-12 w-12 pb-3 sm:left-[20vw]'/>
         </div>
