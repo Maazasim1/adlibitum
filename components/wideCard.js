@@ -50,7 +50,7 @@ export default function WideCard() {
                     width="800"
                     height="600"
                     style={{border:0}}
-                    allowfullscreen=""
+                    allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"></iframe>
 
